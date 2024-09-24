@@ -1,0 +1,143 @@
+@charset "utf-8";
+img{
+    border-radius: 100%;
+    width: 10em;
+    height: 10em;
+    }
+    body{
+        max-width: 960px;
+        border: solid 1px;
+        margin: auto;
+        min-height: 1000px;
+    }
+    .vermelho{border: solid 7px red;}
+    .verde{border: solid 7px green;}
+    .amarelo{border: solid 7px yellow;}
+
+.level-1{
+    display: flex;
+    justify-content: flex-end;
+    }
+.level-2{
+    display: flex;
+    justify-content: center;
+}
+.level-3{
+    display: flex;
+    justify-content: space-around; 
+}
+.level-4{
+    display: flex;
+    justify-content: space-between;
+}
+.level-5{
+    display: flex;
+    align-items: flex-end;
+}
+.level-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.level-7{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.level-8{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.level-9{
+    display: flex;
+    flex-direction: column;
+}
+.level-10{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.level-11{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.level-12{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.level-13{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+.level-14{
+    display: flex;
+
+}
+.level-14 .amarelo{
+    order: 1;
+}
+.level-15{
+    display: flex;
+}
+.level-15 .vermelho{
+    order: -3;
+}
+.level-16{
+    display: flex;
+    align-items: flex-start;
+}
+.level-16 .amarelo{
+    align-self: flex-end;
+}
+.level-17{
+    display: flex;
+    align-items: flex-start;
+}
+.level-17 .amarelo{
+    order: 2;
+    align-self: flex-end;
+}
+.level-18{
+    display: flex;
+    flex-wrap: wrap;
+}
+.level-19{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.level-20{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.level-21{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.level-22{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.level-23{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+.level-24{
+    height: 800px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    align-content: space-between;
+}
+
+    
