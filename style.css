@@ -106,11 +106,13 @@ img{
     flex-wrap: wrap;
 }
 .level-19{
+    height: 800px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 .level-20{
+    height: 800px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -121,11 +123,13 @@ img{
     align-content: flex-start;
 }
 .level-22{
+    height: 800px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
 }
 .level-23{
+    height: 800px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
